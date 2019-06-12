@@ -25,9 +25,7 @@
     "url": "https://github.com/manudefrutosvila/npm-card/issues"
   },
   "scripts": {
-    "prepublish": "npm run build",
-    "build": "node build.js",
-    "dev": "npm run build && node ./bin/card.js",
+    "dev": "node ./bin/card.js",
     "lint": "standard"
   },
   "dependencies": {},
