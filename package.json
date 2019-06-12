@@ -28,10 +28,11 @@
     "dev": "node ./bin/card.js",
     "lint": "standard"
   },
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "boxen": "^2.1.0",
     "chalk": "^2.4.1",
+  },
+  "devDependencies": {
     "standard": "^12.0.1"
   }
 }
