@@ -5,8 +5,6 @@
 // Pull in our modules
 const chalk = require('chalk')
 const boxen = require('boxen')
-const fs = require('fs')
-const path = require('path')
 
 // Define options for Boxen
 const options = {
@@ -60,5 +58,5 @@ const output = heading + // data.name + data.handle
                linkedining + newline + // data.labelLinkedIn + data.linkedin
                webing + newline + newline + // data.labelWeb + data.web
                carding // data.labelCard + data.npx
-               
+
 console.log(chalk.green(boxen(output, options)))
