@@ -1,23 +1,9 @@
 {
-  "name": "@bnb/card",
-  "version": "1.6.0",
-  "description": "A personal card for Tierney Cyren (@bitandbang)",
-  "main": "/bin/card.js",
-  "bin": {
-    "bitandbang": "./bin/card.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bnb/bitandbang.git"
-  },
-  "homepage": "https://bnb.im",
-  "scripts": {
-    "prepublish": "npm run build",
-    "build": "node build.js",
-    "dev": "npm run build && node ./bin/card.js",
-    "lint": "standard",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "name": "manudefrutosvila",
+  "version": "1.0.1",
+  "description": "A personal card for Manu de Frutos Vila (@manudefrutosvila)",
+  "author": "Manu de Frutos Vila <manufvdev@gmail.com> (http://www.manudefrutosvila.com)",
+  "homepage": "https://github.com/manudefrutosvila/npm-card#readme",
   "keywords": [
     "card",
     "npm",
@@ -26,22 +12,28 @@
     "npx card",
     "business card"
   ],
-  "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
-  "license": "MIT",
-  "files": [
-    "bin/card.js",
-    "bin/output"
-  ],
+  "license": "ISC",
+  "main": "/bin/card.js",
+  "bin": {
+    "manudefrutosvila": "./bin/card.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manudefrutosvila/npm-card.git"
+  },
+  "bugs": {
+    "url": "https://github.com/manudefrutosvila/npm-card/issues"
+  },
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "node build.js",
+    "dev": "npm run build && node ./bin/card.js",
+    "lint": "standard"
+  },
+  "dependencies": {},
   "devDependencies": {
     "boxen": "^2.1.0",
     "chalk": "^2.4.1",
     "standard": "^12.0.1"
-  },
-  "bugs": {
-    "url": "https://github.com/bnb/bitandbang/issues"
-  },
-  "dependencies": {},
-  "publishConfig": {
-    "registry": "https://npm.registry.github.com/"
   }
 }
