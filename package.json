@@ -1,6 +1,6 @@
 {
   "name": "manudefrutosvila",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A personal card for Manu de Frutos Vila (@manudefrutosvila)",
   "author": "Manu de Frutos Vila <manufvdev@gmail.com> (http://www.manudefrutosvila.com)",
   "homepage": "https://github.com/manudefrutosvila/npm-card#readme",
@@ -13,6 +13,7 @@
     "business card"
   ],
   "license": "ISC",
+  "type": "module",
   "main": "/bin/card.js",
   "bin": {
     "manudefrutosvila": "./bin/card.js"
@@ -29,10 +30,10 @@
     "lint": "standard"
   },
   "dependencies": {
-    "boxen": "^2.1.0",
-    "chalk": "^2.4.1"
+    "boxen": "6.2.1",
+    "chalk": "5.0.0"
   },
   "devDependencies": {
-    "standard": "^12.0.1"
+    "standard": "16.0.4"
   }
 }

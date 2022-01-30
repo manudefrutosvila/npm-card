@@ -3,8 +3,8 @@
 'use strict'
 
 // Pull in our modules
-const chalk = require('chalk')
-const boxen = require('boxen')
+import chalk from 'chalk'
+import boxen from 'boxen'
 
 // Define options for Boxen
 const options = {
@@ -16,7 +16,7 @@ const options = {
 // Text + chalk definitions
 const data = {
   name: chalk.white('        🖖  Manu de Frutos Vila  =)'),
-  work: chalk.white('Frontend engineer, hybrid mobile specialist'),
+  work: chalk.white('Software engineer, frontend specialist'),
   twitter: chalk.gray('https://twitter.com/') + chalk.cyan('manufv'),
   // npm: chalk.gray('https://npmjs.com/') + chalk.red('~manudefrutosvila'),
   github: chalk.gray('https://github.com/') + chalk.white('manudefrutosvila'),
@@ -24,10 +24,10 @@ const data = {
   instagram: chalk.gray('https://instagram.com/') + chalk.magenta('manufv'),
   web: chalk.green('https://www.manudefrutosvila.com/'),
   hobbies: chalk.white('In love with 🐕 animals 🌲 nature and 🌍 adventure   '),
-  hobbies2: chalk.white('🕹  🎮 Dota2 enthusiast'),
-  hobbies3: chalk.white('⚽ 🏟  Valencia CF supporter'),
+  hobbies2: chalk.white('🎮 Dota2 enthusiast'),
+  hobbies3: chalk.white('⚽ Valencia CF supporter'),
   hobbies4: '🐾🐾👣👣',
-  npx: chalk.white('👨‍💻 $ ') + chalk.red('npx') + ' ' + chalk.white('manudefrutosvila')
+  npx: chalk.white('💻 $ ') + chalk.red('npx') + ' ' + chalk.white('manudefrutosvila')
 }
 
 const label = {
@@ -54,7 +54,7 @@ const instagraming = `${label.instagram}  ${data.instagram}`
 const webing = `${label.web}  ${data.web}`
 const carding = `${label.card}  ${data.npx}`
 const hobbies = `${label.hobbies}  ${data.hobbies}`
-const hobbies2 = `${label.hobbiesMore} ${data.hobbies2}`
+const hobbies2 = `${label.hobbiesMore} ${data.hobbies2}  `
 const hobbies3 = `${label.hobbiesMore} ${data.hobbies3}`
 const hobbies4 = `${label.hobbiesMore} ${data.hobbies4}`
 
